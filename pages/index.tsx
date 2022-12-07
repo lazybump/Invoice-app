@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Entry from "../components/Entry";
+import Card from "../components/Card";
 import Navbar from "../components/Navbar";
-import { FaAngleDown } from "react-icons/fa";
-import { AiFillPlusCircle } from "react-icons/ai";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -13,27 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="px-4 py-6">
-        <div className="flex justify-between mt-20 mb-8">
-          <div>
-            <h2 className="text-lg">Invoices</h2>
-            <span className="text-sm text-grey-color">3 invoices</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <span>Filter</span>
-            <button>
-              <FaAngleDown size={18} className="text-secondary-color" />
-            </button>
-            <button className="flex items-center justify-between w-20 px-2 py-1 font-semibold rounded-full bg-secondary-color">
-              <AiFillPlusCircle size={30} />
-              <span>New</span>
-            </button>
-          </div>
-        </div>
+      <main className="px-6 py-8 mt-20">
+        <Header />
         <div className="space-y-4">
-          <Entry />
-          <Entry />
-          <Entry />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </main>
     </div>

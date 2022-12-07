@@ -7,10 +7,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary-color": "var(--primary-color)",
-        "secondary-color": "var(--secondary-color)",
-        "tertiary-color": "var(--tertiary-color)",
-        "grey-color": "var(--grey-color)",
+        "darker-navy": "var(--darker-navy)",
+        "lighter-navy": "var(--lighter-navy)",
+        "darker-purple": "var(--darker-purple)",
+        "lighter-purple": "var(--lighter-purple)",
+        "darker-grey": "var(--darker-grey)",
+        "lighter-grey": "var(--lighter-grey)",
+        paid: "var(--paid)",
+        "paid-transparent": "var(--paid-transparent)",
+        pending: "var(--pending)",
+        "pending-transparent": "var(--pending-transparent)",
+        "draft-transparent": "var(--draft-transparent)",
       },
     },
   },

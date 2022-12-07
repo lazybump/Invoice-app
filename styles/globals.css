@@ -4,13 +4,20 @@
 
 @layer base {
   body {
-    @apply bg-[#141224] text-white;
+    @apply text-white bg-darker-navy;
   }
 
   :root {
-    --primary-color: #272245;
-    --secondary-color: #6c52df;
-    --tertiary-color: #897ce6;
-    --grey-color: #ccd4ee;
+    --darker-navy: #141224;
+    --lighter-navy: #21223d;
+    --darker-purple: #6c52df;
+    --lighter-purple: #897ce6;
+    --darker-grey: #9ba2b8;
+    --lighter-grey: #e2e5f0;
+    --paid: #6dce99;
+    --paid-transparent: #00813a1f;
+    --pending: #cc7b30;
+    --pending-transparent: #8145001f;
+    --draft-transparent: #ffffff1f;
   }
 }
