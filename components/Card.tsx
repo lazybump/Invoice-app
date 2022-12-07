@@ -2,11 +2,11 @@ import { BsCircleFill } from "react-icons/bs";
 
 const Card = () => {
   return (
-    <div className="grid items-center grid-cols-2 px-6 py-4 rounded-lg h-36 bg-lighter-navy">
-      <h4 className="font-semibold">
+    <div className="grid items-center grid-cols-2 grid-rows-2 p-6 rounded-lg h-36 bg-lighter-navy">
+      <h4 className="self-start font-semibold">
         <span className="font-bold text-darker-grey">#</span>RT3080
       </h4>
-      <span className="text-sm justify-self-end text-lighter-grey">
+      <span className="self-start text-sm justify-self-end text-lighter-grey">
         Jensen Huang
       </span>
       <div>
