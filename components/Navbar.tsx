@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="fixed z-50 flex items-center w-full h-20 mb-10 bg-primary-color">
+    <nav className="fixed top-0 z-50 flex items-center w-full h-20 bg-primary-color">
       {/* Logo */}
       <div className="relative flex items-center justify-center w-24 h-full overflow-hidden rounded-r-3xl bg-secondary-color">
         <TbPacman fill="white" size={40} className="z-10 -rotate-90" />
