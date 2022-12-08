@@ -5,9 +5,10 @@ const Header = () => {
   return (
     <header className="flex justify-between mb-8">
       <div>
-        <h2 className="text-2xl font-bold md:mb-2">Invoices</h2>
+        <h2 className="text-2xl font-bold lg:text-4xl md:mb-2">Invoices</h2>
         <p className="text-sm text-lighter-grey">
-          <span className="hidden md:inline">There are </span>3 invoices
+          <span className="hidden md:inline">There are </span>3{" "}
+          <span className="hidden lg:inline">total </span>invoices
         </p>
       </div>
       <div className="flex items-center space-x-2 font-semibold">
@@ -15,7 +16,7 @@ const Header = () => {
           Filter<span className="hidden md:inline"> by status</span>
         </p>
         <button>
-          <FaAngleDown size={18} className="text-darker-purple" />
+          <FaAngleDown size={18} className="text-darker-purple lg:mr-6" />
         </button>
         <button className="flex items-center justify-between w-20 px-2 py-1 rounded-full md:w-36 bg-darker-purple">
           <AiFillPlusCircle size={30} />

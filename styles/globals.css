@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    @apply box-border p-0 m-0;
+  }
+
   body {
-    @apply text-white bg-darker-navy;
+    @apply h-screen text-white bg-darker-navy;
   }
 
   :root {

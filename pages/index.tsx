@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="px-6 py-8 mt-20">
+      <div className="px-6 py-8 mt-20 lg:px-96">
         <Header />
         <main className="space-y-5">
           <Card />
