@@ -3,7 +3,7 @@ import { FaAngleDown } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="flex justify-between mb-8">
+    <header className="flex justify-between mb-8">
       <div>
         <h2 className="text-2xl font-bold md:mb-2">Invoices</h2>
         <p className="text-sm text-lighter-grey">
@@ -24,7 +24,7 @@ const Header = () => {
           </p>
         </button>
       </div>
-    </div>
+    </header>
   );
 };
 
