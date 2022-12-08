@@ -3,7 +3,7 @@ import { HiChevronRight } from "react-icons/hi";
 
 const Card = () => {
   return (
-    <article className="px-6 rounded-lg bg-lighter-navy md:h-28 md:flex md:items-center md:justify-between">
+    <article className="p-6 rounded-lg bg-lighter-navy md:h-24 md:flex md:items-center md:justify-between">
       <div className="grid items-center w-full grid-cols-2 grid-rows-2 gap-4 md:grid-cols-5 md:grid-rows-1">
         <h4 className="self-start font-bold md:self-auto">
           <span className="font-bold text-darker-grey">#</span>RT3080
