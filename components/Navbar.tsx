@@ -9,10 +9,10 @@ interface Props {
 
 const Navbar = ({ toggle }: Props) => {
   return (
-    <nav className="fixed top-0 z-50 flex items-center w-full h-20 lg:justify-between lg:w-24 lg:flex-col lg:h-screen bg-lighter-navy lg:rounded-r-3xl lg:overflow-hidden">
+    <nav className="fixed top-0 z-50 flex items-center w-full h-16 lg:justify-between lg:w-24 lg:flex-col lg:h-screen bg-lighter-navy lg:rounded-r-3xl lg:overflow-hidden">
       {/* Logo */}
       <div
-        className="relative flex items-center justify-center min-w-[80px] max-w-1/5 h-full overflow-hidden lg:h-24 lg:w-full rounded-r-3xl bg-darker-purple lg:cursor-pointer"
+        className="relative flex items-center justify-center min-w-[70px] max-w-1/5 h-full overflow-hidden lg:h-24 lg:w-full rounded-r-3xl bg-darker-purple lg:cursor-pointer"
         onClick={toggle}
       >
         <MdIncompleteCircle
