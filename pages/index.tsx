@@ -19,7 +19,7 @@ export default function Home({ isOpen }: Props) {
       </Head>
       <Overlay isOpen={isOpen} />
       <Form isOpen={isOpen} />
-      <div className="px-6 py-8 mt-20 lg:px-96">
+      <div className="px-12 py-8 mx-auto mt-20 md:w-3/4 md:min-w-[750px] max-w-[1000px]">
         <Header />
         <main className="space-y-5">
           <Card />
