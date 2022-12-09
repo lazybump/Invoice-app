@@ -2,7 +2,7 @@ import Head from "next/head";
 import Card from "../components/Card";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import Form from "../components/Form";
+import Form from "../components/Form/Form";
 import Overlay from "../components/Overlay";
 
 interface Props {

@@ -19,6 +19,9 @@ module.exports = {
         "pending-transparent": "var(--pending-transparent)",
         "draft-transparent": "var(--draft-transparent)",
       },
+      fontSize: {
+        xxs: "0.625rem",
+      },
     },
   },
   plugins: [],
