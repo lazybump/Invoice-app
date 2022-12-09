@@ -13,10 +13,10 @@ const ItemList = () => {
         </label>
         <label htmlFor="">Total</label>
       </header>
-      <div className="grid items-center grid-flow-row grid-cols-9 gap-3">
+      <ul className="space-y-3">
         <Item />
         <Item />
-      </div>
+      </ul>
     </section>
   );
 };
