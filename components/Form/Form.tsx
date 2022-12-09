@@ -12,7 +12,7 @@ const Form = ({ isOpen }: Props) => {
   return (
     <form
       action="#"
-      className={`hidden lg:block z-20 bg-darker-navy p-8 relative max-w-[500px] h-screen rounded-r-3xl left-24 transition-all duration-500 ${
+      className={`hidden fixed lg:block z-20 bg-darker-navy p-8 max-w-[500px] h-screen rounded-r-3xl left-24 top-0 transition-all duration-500 ${
         isOpen ? "" : "-translate-x-full"
       }`}
       onSubmit={(e) => e.preventDefault()}
