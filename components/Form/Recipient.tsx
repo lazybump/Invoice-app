@@ -5,12 +5,12 @@ const Recipient = () => {
 
       <div className="grid grid-cols-3 grid-rows-4 gap-4">
         <div className="flex flex-col col-span-3">
-          <label htmlFor="c-name">Client's Name</label>
+          <label htmlFor="c-name">Client&apos;s Name</label>
           <input type="text" id="c-name" className="data-input" />
         </div>
 
         <div className="flex flex-col col-span-3">
-          <label htmlFor="c-email">Client's Email</label>
+          <label htmlFor="c-email">Client&apos;s Email</label>
           <input type="text" id="c-email" className="data-input" />
         </div>
 
