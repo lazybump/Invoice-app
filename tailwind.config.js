@@ -17,6 +17,7 @@ module.exports = {
         "paid-transparent": "var(--paid-transparent)",
         pending: "var(--pending)",
         "pending-transparent": "var(--pending-transparent)",
+        draft: "var(--draft)",
         "draft-transparent": "var(--draft-transparent)",
       },
       fontSize: {

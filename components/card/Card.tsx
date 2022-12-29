@@ -1,5 +1,5 @@
+import { BsCircleFill } from "react-icons/bs";
 import { HiChevronRight } from "react-icons/hi";
-import PaymentStatus from "./PaymentStatus";
 
 const Card = () => {
   return (
@@ -17,7 +17,10 @@ const Card = () => {
         <h3 className="self-end col-start-1 text-xl font-bold md:self-auto md:col-start-4 md:justify-self-center">
           £1,800.90
         </h3>
-        <PaymentStatus status="pending" />
+        <div className="flex items-center justify-center h-12 col-start-2 py-2 space-x-2 rounded-lg w-28 bg-paid-transparent justify-self-end md:col-start-5">
+          <BsCircleFill className="fill-paid" size={9} />
+          <span className="font-semibold text-paid">Paid</span>
+        </div>
       </div>
       <HiChevronRight
         size={20}

@@ -22,7 +22,8 @@
     --paid-transparent: #00813a1f;
     --pending: #cc7b30;
     --pending-transparent: #8145001f;
-    --draft-transparent: #ffffff1f;
+    --draft: #ffffff;
+    --draft-transparent: #6161611f;
   }
 
   label {
