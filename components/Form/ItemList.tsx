@@ -1,6 +1,9 @@
+import { useState } from "react";
 import Item from "./Item";
 
 const ItemList = () => {
+  const [items, setItems] = useState<HTMLElement[] | null>(null);
+
   return (
     <section>
       <h3 className="mb-3 text-xs font-semibold text-darker-grey">Item List</h3>
@@ -14,8 +17,12 @@ const ItemList = () => {
         <label htmlFor="">Total</label>
       </header>
       <ul className="space-y-3">
-        <Item />
-        <Item />
+        {items?.map((item) => (
+          <Item />
+        ))}
+
+        {/* <Item />
+        <Item /> */}
       </ul>
     </section>
   );

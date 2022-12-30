@@ -5,7 +5,7 @@ import ServiceInfo from "./ServiceInfo";
 import { GoPlus } from "react-icons/go";
 
 interface Props {
-  isOpen: boolean;
+  isOpen?: boolean;
 }
 
 const Form = ({ isOpen }: Props) => {
